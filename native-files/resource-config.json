@@ -1,0 +1,659 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\Qdatadog/slf4j/impl/StaticLoggerBinder.class\\E"
+  }, {
+    "pattern":"\\Qdatadog/trace/instrumentation/classloading/DefineClassInstrumentation$DefineClassAdvice.class\\E"
+  }, {
+    "pattern":"\\Qinstrumenter.index\\E"
+  }, {
+    "pattern":"\\Qjava/io/File.class\\E"
+  }, {
+    "pattern":"\\Qjava/io/InputStream.class\\E"
+  }, {
+    "pattern":"\\Qjava/io/Serializable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/AssertionStatusDirectives.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Class.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/ClassLoader$ParallelLoaders.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/ClassLoader.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Cloneable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Comparable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Enum.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Error.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Exception.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Iterable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Module.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/NamedPackage.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Package.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Runnable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/String.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Throwable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/Void.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/constant/Constable.class\\E"
+  }, {
+    "pattern":"\\Qjava/lang/reflect/AccessibleObject.class\\E"
+  }, {
+    "pattern":"\\Qjava/net/URL.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/Buffer.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/ByteBuffer.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/DirectByteBuffer.class\\E"
+  }, {
+    "pattern":"\\Qjava/nio/MappedByteBuffer.class\\E"
+  }, {
+    "pattern":"\\Qjava/security/CodeSource.class\\E"
+  }, {
+    "pattern":"\\Qjava/security/ProtectionDomain.class\\E"
+  }, {
+    "pattern":"\\Qjava/security/cert/Certificate.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/AbstractCollection.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/AbstractQueue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Collection.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Enumeration.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Iterator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/List.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/ListIterator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Map.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Queue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Random.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/RandomAccess.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/Spliterator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/ArrayBlockingQueue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/BlockingQueue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/Callable.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/ConcurrentHashMap.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/ConcurrentMap.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/CopyOnWriteArrayList$COWIterator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/CopyOnWriteArrayList.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/DelayQueue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/Executor.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/Future.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/LinkedBlockingQueue$Node.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/LinkedBlockingQueue.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/RunnableFuture.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/ThreadFactory.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/ThreadLocalRandom.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/concurrent/TimeUnit.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/logging/LogManager.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/random/RandomGenerator.class\\E"
+  }, {
+    "pattern":"\\Qjava/util/stream/Stream.class\\E"
+  }, {
+    "pattern":"\\Qjdk/internal/loader/NativeLibrary.class\\E"
+  }, {
+    "pattern":"\\Qjdk/jfr/Event.class\\E"
+  }, {
+    "pattern":"\\Qknown-types.index\\E"
+  }, {
+    "pattern":"\\Qnet/bytebuddy/asm/Advice$Argument.class\\E"
+  }, {
+    "pattern":"\\Qnet/bytebuddy/asm/Advice$OnMethodEnter.class\\E"
+  }, {
+    "pattern":"\\Qnet/bytebuddy/asm/Advice$This.class\\E"
+  }, {
+    "pattern":"\\Qnet/bytebuddy/dynamic/Nexus.class\\E"
+  }, {
+    "pattern":"\\Qsun/nio/ch/DirectBuffer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/CharConversionException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/Closeable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/DataInput.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/File.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/FileDescriptor.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/Flushable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/IOException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/InputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/ObjectInput.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/ObjectInputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/ObjectOutputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/ObjectStreamConstants.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/OutputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/Serializable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/io/Writer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Appendable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/AssertionStatusDirectives.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/AutoCloseable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Boolean.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Class.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ClassLoader$ParallelLoaders.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ClassLoader.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Cloneable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Comparable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Enum.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Error.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Exception.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/IllegalArgumentException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/IllegalStateException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/InheritableThreadLocal.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Integer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Iterable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/LinkageError.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Module.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/NamedPackage.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Package.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Process.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessBuilder$Redirect.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessHandle.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$DeferredCloseInputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$DeferredCloseProcessPipeInputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$LaunchMechanism.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$Platform.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$ProcessPipeInputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ProcessImpl$ProcessPipeOutputStream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Runnable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/RuntimeException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Shutdown$Lock.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/StackTraceElement.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/String.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Thread$UncaughtExceptionHandler.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Thread.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ThreadGroup.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ThreadLocal.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Throwable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/UnsatisfiedLinkError.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/Void.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/annotation/Annotation.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/constant/Constable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ref/Reference.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/ref/WeakReference.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/reflect/AccessibleObject.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/lang/reflect/Field.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/net/Socket.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/net/URL.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/net/URLClassLoader.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/net/URLStreamHandler.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/net/URLStreamHandlerFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/Buffer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/ByteBuffer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/DirectByteBuffer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/MappedByteBuffer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/ByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/Channel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/FileChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/GatheringByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/InterruptibleChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/ReadableByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/ScatteringByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/SeekableByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/WritableByteChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/channels/spi/AbstractInterruptibleChannel.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/charset/Charset.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/nio/charset/CharsetEncoder.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/AccessControlContext.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/BasicPermission.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/CodeSource.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/GeneralSecurityException.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/Guard.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/Permission.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/PermissionCollection.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/PrivilegedAction.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/ProtectionDomain.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/Provider$Service.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/Provider.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/SecureClassLoader.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/security/cert/Certificate.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/time/Duration.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/time/Instant.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/AbstractCollection.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/AbstractMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/AbstractQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/AbstractSet.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/ArrayList.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Collection.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Comparator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Deque.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Dictionary.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Enumeration.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/EventObject.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/HashMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Hashtable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/IdentityHashMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Iterator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/LinkedHashMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/List.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/ListIterator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Locale.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Map$Entry.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Map.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/NavigableMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/NavigableSet.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Optional.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Properties.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Queue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Random.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/RandomAccess.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Set.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/SortedMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/SortedSet.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/Spliterator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ArrayBlockingQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/BlockingQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/Callable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CompletableFuture$AsynchronousCompletionTask.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CompletableFuture$UniCompletion.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CompletableFuture.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CompletionStage.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ConcurrentHashMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ConcurrentLinkedDeque$AbstractItr.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ConcurrentMap.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ConcurrentSkipListMap$Iter.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CopyOnWriteArrayList$COWIterator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/CopyOnWriteArrayList.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/DelayQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/Executor.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$DefaultCommonPoolForkJoinWorkerThreadFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$DefaultForkJoinWorkerThreadFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$InvokeAnyRoot.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$InvokeAnyTask.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$ManagedBlocker.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinPool$WorkQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$AdaptedCallable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$AdaptedInterruptibleCallable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$AdaptedRunnable.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$AdaptedRunnableAction.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$Aux.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask$RunnableExecuteAction.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinTask.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinWorkerThread$InnocuousForkJoinWorkerThread.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ForkJoinWorkerThread.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/Future.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/FutureTask$WaitNode.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/FutureTask.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/LinkedBlockingQueue$Node.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/LinkedBlockingQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/RejectedExecutionHandler.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/RunnableFuture.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/RunnableScheduledFuture.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ScheduledFuture.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ScheduledThreadPoolExecutor$DelayedWorkQueue.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/SynchronousQueue$Transferer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadFactory.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadLocalRandom.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadPoolExecutor$AbortPolicy.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadPoolExecutor$CallerRunsPolicy.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadPoolExecutor$DiscardOldestPolicy.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadPoolExecutor$DiscardPolicy.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/ThreadPoolExecutor$Worker.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/TimeUnit.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/locks/AbstractOwnableSynchronizer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/concurrent/locks/AbstractQueuedSynchronizer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/function/BiFunction.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/function/Consumer.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/function/Function.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/function/Predicate.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/jar/Manifest.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/random/RandomGenerator.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjava/util/stream/Stream.class\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/uprops.icu\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/loader/NativeLibrary.class\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/idn/uidna.spp\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/nio/ch/DirectBuffer.class\\E"
+  }, {
+    "pattern":"java.instrument:\\Qjava/lang/instrument/ClassFileTransformer.class\\E"
+  }, {
+    "pattern":"java.logging:\\Qjava/util/logging/Formatter.class\\E"
+  }, {
+    "pattern":"java.logging:\\Qjava/util/logging/LogManager.class\\E"
+  }, {
+    "pattern":"java.logging:\\Qsun/util/logging/internal/LoggingProviderImpl$LogManagerAccess.class\\E"
+  }, {
+    "pattern":"java.management:\\Qjavax/management/MBeanServer.class\\E"
+  }, {
+    "pattern":"java.management:\\Qjavax/management/MBeanServerConnection.class\\E"
+  }, {
+    "pattern":"java.naming:\\Qjavax/naming/Context.class\\E"
+  }, {
+    "pattern":"java.naming:\\Qjavax/naming/directory/DirContext.class\\E"
+  }, {
+    "pattern":"java.net.http:\\Qjava/net/http/HttpClient.class\\E"
+  }, {
+    "pattern":"java.net.http:\\Qjava/net/http/HttpRequest.class\\E"
+  }, {
+    "pattern":"java.sql:\\Qjava/sql/Wrapper.class\\E"
+  }, {
+    "pattern":"java.sql:\\Qjavax/sql/CommonDataSource.class\\E"
+  }, {
+    "pattern":"java.xml:\\Qjavax/xml/transform/Result.class\\E"
+  }, {
+    "pattern":"java.xml:\\Qjavax/xml/transform/Source.class\\E"
+  }, {
+    "pattern":"jdk.jfr:\\Qjdk/jfr/Event.class\\E"
+  }]},
+  "bundles":[{
+    "name":"jakarta.servlet.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.authenticator.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.connector.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.core.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.deploy.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.loader.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mapper.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mbeans.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.realm.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.security.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.session.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.startup.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.util.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.valves.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.webresources.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.http11.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.naming.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.buf.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.compat.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.descriptor.web.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.parser.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.modeler.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.net.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.scan.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.threads.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.server.LocalStrings",
+    "locales":[""]
+  }]
+}
